@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tessera: Privacy policy</title>
+<meta name="description" content="What the puzzle game Tessera stores about you, where, for how long, and how to have it deleted.">
+<style>
+  :root { color-scheme: light dark; --ink: #1f1d1a; --muted: #5d5850; --paper: #faf8f4; --rule: #ddd6ca; --accent: #8a4b2a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #ece7de; --muted: #b0a898; --paper: #1b1a18; --rule: #3a3631; --accent: #e3a27c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+  h2 { font-size: 1.2rem; margin: 2.25rem 0 .5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .35rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin-bottom: 1.5rem; }
+  .short { border-left: 3px solid var(--accent); padding: .25rem 0 .25rem 1rem; }
+  table { border-collapse: collapse; width: 100%; margin: 0 0 1rem; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: .4rem .5rem; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 600; }
+  code { font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+<h1>Tessera: Privacy policy</h1>
+<p class="meta">Last updated: 5 November 2026</p>
+
+<div class="short">
+<p><strong>The short version.</strong> Tessera doesn't ask for your real name, email address or any account. To run the Daily and its boards, the game signs you in anonymously and keeps your Daily results, your Flow, your quilt, your time zone and the name you pick for the boards on Unity's servers (the full list is below). Your other progress and your settings stay in your browser. Usage statistics are only sent if you say yes. There are no ads, and nothing is sold or shared for advertising.</p>
+</div>
+
+<h2>Who is responsible</h2>
+<p>Calvin Kohl makes Tessera and is responsible for the data described here.<br>
+Contact: <a href="mailto:kohl.calvin@gmail.com">kohl.calvin@gmail.com</a></p>
+
+<h2>What stays on your device</h2>
+<p>Most of the game lives only in your browser's storage for the page the game runs on (IndexedDB and localStorage). It is never sent to us:</p>
+<ul>
+  <li>Your progress: solved puzzles, personal bests, the Wall, achievements and patches, an unfinished puzzle.</li>
+  <li>Your settings: theme, light or dark, motion, language, Way to play, the row and column highlight, and your answer about usage statistics (with a deletion request waiting to be sent, if any).</li>
+  <li>Copies of what the server last told the game (your board name, time zone and Flow) so the game can show them offline, and results waiting to be sent while you are offline.</li>
+  <li>The anonymous sign-in token that lets the game recognise you on your next visit.</li>
+</ul>
+<p>Clearing this site's data in your browser removes all of it. You then start over as a new anonymous player; the game cannot connect you to your old data on the server.</p>
+
+<h2>What goes to our online services</h2>
+<p>The Daily, its boards, Flow and the player card run on <strong>Unity Gaming Services</strong> (see "Unity" below). When the game connects, it signs you in anonymously: Unity gives you a random <strong>player id</strong>. No email address, password or social account is involved. Stored with that id:</p>
+<table>
+  <tr><th>What</th><th>Why</th></tr>
+  <tr><td><strong>Display name</strong>: the name you pick for the boards, and when you last changed it</td><td>Shown next to your results. Pick any name; please don't use your real name</td></tr>
+  <tr><td><strong>Time zone</strong>: your device's time zone name and UTC offset as registered, and when it last changed</td><td>Decides on which date you get each Daily, and the 7-day lock on changes</td></tr>
+  <tr><td><strong>Daily results</strong>: for each Daily you submit, the official result (score, time, mistakes, Combo), the server's verdict, the game version, when it arrived and when the run started</td><td>The boards, medals and your past dailies</td></tr>
+  <tr><td><strong>Move log</strong> of the run that counts on the boards for each Daily: which cells you marked, in which order and at what time into the run</td><td>The server replays it to check the result is real (fair boards). Puzzles outside the Daily are checked the same way for Flow, but their move logs are not kept</td></tr>
+  <tr><td><strong>Flow</strong>: your Flow, best and season best, which days you played</td><td>Flow and its boards</td></tr>
+  <tr><td><strong>Medals</strong> from closed dailies</td><td>The profile, the player card, past dailies</td></tr>
+  <tr><td><strong>Your quilt</strong>: its layout of patches, and when the server first saw each patch it can check earned</td><td>The player card other players can open</td></tr>
+</table>
+<p>Like any website or online service, Unity's servers also receive your IP address and basic technical details (such as the browser) when the game connects. We don't store those ourselves.</p>
+
+<h3>What other players can see</h3>
+<p>The boards show your display name and your results for each Daily, and your Flow on the Flow boards. Anyone who taps your row sees your player card: display name, Flow, medal totals and the patches on your quilt that the server can check. Nothing else about you is shown.</p>
+
+<h2>Usage statistics (only if you say yes)</h2>
+<p>The first time you play, the game asks whether it may send usage statistics, with <strong>Allow</strong> and <strong>No thanks</strong> as equal choices. Until you choose Allow, nothing is collected or sent: the game tells Unity's analytics software that you have not consented, and it records nothing. Your answer is kept on your device (as <code>analytics.consent</code>) and applied again every time the game starts.</p>
+<p>If you allow it, the game sends these ten kinds of events through Unity Analytics:</p>
+<ul>
+  <li>first open (once, when you choose Allow);</li>
+  <li>tutorial steps, and whether you skipped;</li>
+  <li>starting, solving and leaving a puzzle: which puzzle and collection, the challenge, Focus or Zen, time, mistakes, hints and score;</li>
+  <li>starting and submitting a Daily: its number, the challenge, Focus or Zen, time, mistakes and score;</li>
+  <li>sharing a Daily result (shared or copied);</li>
+  <li>changing the theme, light or dark, or Way to play.</li>
+</ul>
+<p>No event carries your display name, anything you typed, an email address or your device's clock. We use them only to see whether players learn the game, come back and share it.</p>
+<p>Once you allow it, Unity's analytics software (com.unity.services.analytics) also sends its own standard events and fields:</p>
+<ul>
+  <li>with every event: an installation id it creates, your anonymous player id, a session id, an event id and time, the game's version and build ids, the platform, the battery level and, where the device reports it, the sound volume;</li>
+  <li>when the game starts: the device's language and region setting, the operating system and its version, and the device model the first time;</li>
+  <li>a description of the device: processor and graphics chip, number of processor cores, memory, screen size and resolution;</li>
+  <li>while the game runs and when it ends: that it is running, and how the session ended.</li>
+</ul>
+<p>Unity also receives the connection's IP address, as any online service does, and may derive an approximate country from it.</p>
+<p>In <strong>Settings → Analytics</strong> you can switch this on or off at any time. <strong>Delete my analytics data</strong> switches it off and asks Unity to delete the statistics already sent for you; if you are offline, the request waits on your device and is sent at the next connection.</p>
+
+<h2>Why we may use this data</h2>
+<ul>
+  <li>Running the online features you use (the Daily, boards, Flow, player card), including checking results for fairness: to provide the game you asked for (Art. 6(1)(b) GDPR) and our legitimate interest in fair boards (Art. 6(1)(f) GDPR).</li>
+  <li>Usage statistics: only with your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time.</li>
+</ul>
+
+<h2>itch.io</h2>
+<p>The Web version of Tessera is hosted on <a href="https://itch.io">itch.io</a>. When you open the game there, itch.io serves the page and may use its own cookies and logs, as described in <a href="https://itch.io/docs/legal/privacy-policy">itch.io's privacy policy</a>. We don't receive personal data from itch.io about players of the free game.</p>
+
+<h2>Unity</h2>
+<p>The online services are provided by Unity Technologies (Unity Gaming Services: Authentication, Cloud Code, Cloud Save, Leaderboards, Remote Config and, with your consent, Analytics). Unity processes the data on our behalf and may do so on servers outside your country, including in the United States. See <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity's privacy policy for game players</a>.</p>
+
+<h2>How long we keep it</h2>
+<ul>
+  <li>Data on your device stays until you clear it in your browser.</li>
+  <li>Data on the server has no automatic expiry yet: we keep it while the game's online features run, so your history and boards stay with you, or until you ask us to delete it. If the online features shut down for good, we delete it.</li>
+  <li>Final standings of closed dailies (names and results) are kept so past dailies can still be shown.</li>
+  <li>Usage statistics are kept by Unity Analytics for the period Unity sets out in its policy, or until you use Delete my analytics data.</li>
+</ul>
+
+<h2>Deleting your data, and your other rights</h2>
+<p>Write to <a href="mailto:kohl.calvin@gmail.com">kohl.calvin@gmail.com</a> and ask for your data to be deleted. Tell us your display name and roughly when you last played, so we can find your player id; names are not unique, so we may ask a follow-up question. Deletion covers:</p>
+<ul>
+  <li>your anonymous Unity account (player id) and everything stored with it: display name, time zone, daily results, move logs, Flow, medals and quilt;</li>
+  <li>your rows on the Daily and Flow boards, including the saved final standings of past dailies;</li>
+  <li>your usage statistics, if you allowed them (you can also delete those yourself in Settings → Analytics).</li>
+</ul>
+<p>We confirm once it is done, within one month. Data in your own browser is yours to clear. You can also ask what we hold about you, ask us to correct it, restrict or object to its use, or ask for a copy. You have the right to complain to a data protection authority.</p>
+
+<h2>Children</h2>
+<p>Tessera is a puzzle game for a general audience. It doesn't ask for age, real names or contact details. The display name is the only text a player types; it is checked against a list of words that aren't allowed. If you are a parent and want your child's data removed, write to us and we will delete it as described above.</p>
+
+<h2>Changes to this policy</h2>
+<p>If what the game stores changes, we update this page and the date at the top. For bigger changes, such as a new kind of data or a new service, we also say so in the game or on its itch.io page before they apply.</p>
+</main>
+</body>
+</html>
